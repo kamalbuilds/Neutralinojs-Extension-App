@@ -1,7 +1,7 @@
 {
   "applicationId": "js.neutralino.sample",
   "version": "1.0.0",
-  "defaultMode": "window",
+  "defaultMode": "browser",
   "port": 0,
   "documentRoot": "/resources/",
   "url": "/",
@@ -21,27 +21,23 @@
     "debug.log"
   ],
   "globalVariables": {},
-  "modes": {
-    "window": {
-      "title": "Neu_NodeJS_Extension",
-      "width": 800,
-      "height": 500,
-      "minWidth": 400,
-      "minHeight": 200,
-      "fullScreen": false,
-      "alwaysOnTop": false,
-      "icon": "/resources/icons/appIcon.png",
-      "enableInspector": true,
-      "borderless": false,
-      "maximize": false,
-      "hidden": false,
-      "resizable": true,
-      "exitProcessOnClose": false
-    },
-    "browser": {},
-    "cloud": {},
-    "chrome": {}
+  "window": {
+    "title": "Neu_NodeJS_Extension",
+    "width": 800,
+    "height": 500,
+    "minWidth": 400,
+    "minHeight": 100,
+    "fullScreen": false,
+    "alwaysOnTop": false,
+    "icon": "/resources/icons/appIcon.png",
+    "enableInspector": true,
+    "borderless": false,
+    "maximize": false,
+    "hidden": false,
+    "resizable": true,
+    "exitProcessOnClose": false
   },
+  "mode": "browser",
   "cli": {
     "binaryName": "Neu_NodeJS_Extension",
     "resourcesPath": "/resources/",

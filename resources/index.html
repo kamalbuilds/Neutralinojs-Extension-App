@@ -2,21 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>NeutralinoJs NodeJS Extension sample app</title>
+    <title>NeutralinoJs NodeJS Extension app</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div id="neutralinoapp">
       <h1>NeutralinoJs</h1>
-      <div>
+      
+      <div class="text-box">
         This sample application uses a nodejs extension.
         Text sent in the textbox below will be sent to the extension, and the ouput would be displayed when a response is received.
         <br />
-        <label for="Info">Info: </label><input type="text" id="info" style="width:650px;" placeholder="Info Here" readonly>
+        <label for="Info" class="text">Info: </label><input type="text" id="info" style="width:650px;" placeholder="Info Here" readonly>
         <br />
-        <label for="input">Input: </label><input type="text" id="input" style="width:650px;" placeholder="Input Here">
+        <label for="input" class="text">Input: </label><input type="text" id="input" style="width:650px;" placeholder="Input Here">
         <br />
-        <label for="Output">Output: </label><input type="text" id="output" style="width:650px;" placeholder="Output Here" readonly>
+        <label for="Output" class="text">Output: </label><input type="text" id="output" style="width:650px;" placeholder="Output Here" readonly>
       </div>
       <br/>
       <div>
@@ -25,6 +26,7 @@
         <a href="#" onclick="callNodeJSExtension();">Call NodeJS Extension</a>
       </div>
     </div>
+    <!-- <button class="btn" onclick="create()">Click Me</button> -->
     <!-- Neutralino.js client. This file is gitignored, 
         because `neu update` typically downloads it.
         Avoid copy-pasting it. 

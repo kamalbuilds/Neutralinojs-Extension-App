@@ -3,7 +3,7 @@
 // Feel free to use any frontend framework you like :)
 // See more details: https://neutralino.js.org/docs/how-to/use-a-frontend-library
 
-const extensionId = "js.neutralino.sample.my_nodejs_extension";
+const extensionId = "js.neutralino.sample.my_nodejs_extension"; //this is built in extension API
 
 function showInfo(msg) {
     document.getElementById("info").value = msg;
@@ -38,6 +38,8 @@ async function callNodeJSExtension() {
     }
     showInput("");
     focusInput();
+    // showInfo("hello hi ");
+    // showOutput("this si out");
 }
 
 function openDocs() {
